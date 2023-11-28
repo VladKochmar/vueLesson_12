@@ -1,0 +1,30 @@
+.list {
+  display: grid;
+  gap: 1.25rem 0;
+  max-width: 63.75rem;
+  // .list__item
+  &__item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid #2c3e50;
+    padding: 0.625rem;
+  }
+}
+
+.editor {
+  display: grid;
+  gap: 1.25rem 0;
+  max-width: 26.25rem;
+  margin: 0 auto;
+}
+.label {
+}
+.input {
+  width: 100%;
+}
+.alert {
+  color: red;
+  font-size: 1.125rem;
+  text-align: center;
+}
